@@ -1,0 +1,20 @@
+const word = "hello world  ";
+
+console.log(word[0]);
+console.log(word[3]);
+console.log(word.length);
+console.log(word.toLowerCase());
+console.log(word.toUpperCase());
+console.log(word.includes("ll"));
+console.log(word.includes("ls"));
+console.log(word.indexOf("o"));
+console.log(word.lastIndexOf("o"));
+console.log(word.substring(0));
+console.log(word.substring(0,5));
+console.log(word.replace("o","#"));
+console.log(word.replaceAll("o","#"));
+console.log(word.trim());
+console.log(word.trim().split(" "));
+console.log(word.startsWith("h"));
+console.log(word.endsWith("l"));
+console.log(word.trim().concat("!!!"));
